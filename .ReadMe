@@ -1,2 +1,3 @@
-The script titles Full Script will generate a microstructure and then immediately convert it into a model to be imported into Abaqus.
+The script titled Microstructure to Model will generate a microstructure and then immediately convert it into a model to be imported into Abaqus.
 If you want the processes to remain seperate, the microstructure generator will export a NumPy array that can be imported into the Gmsh Meshing script.
+The Gmsh Meshing script will then export a .step file of the model to be brought into Abaqus.
